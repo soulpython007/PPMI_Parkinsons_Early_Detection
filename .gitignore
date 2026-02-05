@@ -1,0 +1,15 @@
+# Ignore Data (Never upload medical datasets!)
+data/
+*.csv
+
+# Ignore Virtual Environment (Too big, unnecessary)
+venv/
+.venv/
+__pycache__/
+
+# Ignore IDE settings
+.vscode/
+.ipynb_checkpoints/
+
+# Ignore sensitive models if they get too big
+models/*.pkl
